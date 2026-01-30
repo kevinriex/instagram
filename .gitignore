@@ -1,0 +1,6 @@
+test/
+**/*.zip
+**/*.json
+**/*.csv
+export/
+data/
