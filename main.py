@@ -32,7 +32,7 @@ def _print_entry(
     print(f"ID:        {row_id}")
     print(f"Username:  {username}")
     print(f"URL:       {url}")
-    print(f"Date:      {date_str}")
+    print(f"Followed:  {date_str}")
     shown_status = _maybe_bold(status) if bold_status else status
     print(f"Status:    {shown_status}")
     print("\nEnter = done | r = change status | q = quit")
